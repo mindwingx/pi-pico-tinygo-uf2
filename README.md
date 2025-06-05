@@ -1,5 +1,15 @@
 # Flash Raspberry Pi Pico with UF2
 
+---
+
+## Build the UF2 file with TinyGO
+
+```shell
+tinygo build -o firmware.uf2 -target=pico main.go
+```
+
+---
+
 - Enter Bootloader Mode
 
 - Disconnect the Pico from USB.
